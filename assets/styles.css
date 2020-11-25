@@ -60,7 +60,7 @@
   display: flex;
   flex-grow: 1;
   padding-left: 10px;
-  margin-right: 8.8px;
+  margin-right: 9.8px;
   align-items: center;
   text-align: center;
   overflow: hidden;
@@ -69,15 +69,16 @@
 }
 
 .main a {
+  box-sizing: content-box;
   flex-grow: 1;
   text-decoration: none;
   margin: 5px 1px 6px 0;
-  padding: 8px 9px 8px 9px;
+  padding: 8px 8px 8px 8px;
   height: 12px;
   line-height: 12px;
-  box-sizing: content-box;
   font-size: 12px;
   overflow: none;
+  border: 1px solid transparent;
 }
 
 .rightImg {
